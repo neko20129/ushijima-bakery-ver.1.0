@@ -77,7 +77,6 @@ sellAll.addEventListener('click', () => {
 
 make1.addEventListener('click', () => {
     if (makeDisplay[makePage][7] <= level) {
-        console.log('-------------------------------------------')
         make(1);
     }
 });
@@ -551,9 +550,7 @@ function make(num) {
         buyDisplay[makeDisplay[makePage][1][0]][3] * num >= makeDisplay[makePage][1][1])
     {
         buyDisplay[makeDisplay[makePage][1][0]][3] = buyDisplay[makeDisplay[makePage][1][0]][3] - makeDisplay[makePage][1][1] * num;
-        console.log('canbuy1')
     } else {
-        console.log('return1')
         return;
     };
 
@@ -561,9 +558,7 @@ function make(num) {
         buyDisplay[makeDisplay[makePage][2][0]][3] * num >= makeDisplay[makePage][2][1])
     {
         buyDisplay[makeDisplay[makePage][2][0]][3] = buyDisplay[makeDisplay[makePage][2][0]][3] - makeDisplay[makePage][2][1] * num;
-        console.log('canbuy2')
     } else {
-        console.log('return2')
         return;
     };
 
@@ -571,9 +566,7 @@ function make(num) {
         buyDisplay[makeDisplay[makePage][3][0]][3] * num >= makeDisplay[makePage][3][1])
     {
         buyDisplay[makeDisplay[makePage][3][0]][3] = buyDisplay[makeDisplay[makePage][3][0]][3] - makeDisplay[makePage][3][1] * num;
-        console.log('canbuy3')
     } else {
-        console.log('return3')
         return;
     };
 
