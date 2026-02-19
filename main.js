@@ -167,7 +167,7 @@ makeAll.addEventListener('click', () => {
 //ゲームループ
 setInterval(() => {
     reloadOfDisplay();
-    if (Math.floor(Math.random() * 20 * (100 - level * 2)) === 1) {
+    if (Math.floor(Math.random() * 15 * (100 - level * 2)) === 1) {
         if (makeDisplay[1][6] > 0 || makeDisplay[2][6] > 0) comeBuyer();
     }
     if (sold >= levelUp) {
