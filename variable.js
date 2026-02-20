@@ -1,4 +1,3 @@
-console.log('loaded');
 //変数
 const log = document.getElementById('log-range');
 
